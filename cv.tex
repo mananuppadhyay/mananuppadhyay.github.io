@@ -1,0 +1,316 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+% Adjust margins for balanced spacing on all sides
+\usepackage[letterpaper, left=0.7in, right=0.7in, top=0.8in, bottom=0.8in]{geometry}
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+  \textbf{\Huge \scshape Manan Uppadhyay} \\ \vspace{1pt}
+  \small +91 7650876355 $|$ \href{mailto:mananuppadhyay@gmail.com}{\underline{mananuppadhyay@gmail.com}} $|$
+  \href{https://github.com/mananuppadhyay}{\underline{https://github.com/mananuppadhyay}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Birla Institute of Technology and Science, Pilani} {Goa}
+  {B.E. Electrical and Electronics Engineering}{2020-2024}
+  \newline
+  \resumeItemListStart
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Birla Institute of Technology and Science, Pilani} {Goa}
+  {Minor Degree in Data Science}{2022-2024}
+  \newline
+  \resumeItemListStart
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Stepping Stones Sr. Secondary School} {Chandigarh}
+  {Schooling}{2018-2020}
+\newline
+\resumeItemListStart
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------COURSEWORK-----------
+\section{Coursework}
+\resumeSubHeadingListStart
+\resumeItem{
+  \textbf{Math}{: Probability and Statistics, Statistical Inference and Applications, Applied Stochastic processes, Applied Statistical Methods, Optimization, Linear Algebra}
+}
+\resumeItem{
+  \textbf{Machine/Deep Learning}{: Machine Learning, Foundations of Data Science, Large Language Models (In association with TCS Research), Digital Image Processing}
+}
+\resumeSubHeadingListEnd
+
+
+\section{Publications}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+   {{\small \textbf{The Role of Synthetic Data in Multilingual, Multicultural AI Systems: Lessons from Indic Languages}}} {}
+  \resumeItemListStart
+    \resumeItem{\small{Developed \textbf{UPDESH}, a 9.5 million-sample culturally grounded synthetic instruction dataset across 13 Indic languages to narrow performance gaps in multilingual AI.}}
+    \resumeItem{\small{Accepted at \textbf{ACL 2026 (Main track)}. Preprint: \href{https://arxiv.org/abs/2509.21294}{arXiv:2509.21294}.}}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {{\small\textbf{Garuda: An Indian Agricultural LLM and Krishi Saathi Advisory Chatbot}}} {}
+  \resumeItemListStart
+    \resumeItem{\small{Accepted as a hands-on demonstration paper at the Workshop on Open-Source AI for Mainstream Use at \textbf{AAAI 2025}.}}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+% -------------------- EXPERIENCE --------------------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+  {\textbf{Research Fellow} \hfill \textbf{Microsoft Research}} {August 2025 -- Present}
+  \resumeItemListStart
+
+  \resumeItem{Worked on \textbf{Updesh}, a 9.5 million-sample culturally grounded synthetic instruction dataset, fine-tuning models on the same and performing downstream evaluations.}
+  \resumeItem{Working on \textbf{Samiksha}: A large scale multilingual evaluation suite for LLMs, with a focus on improving and adapting LLMs as judges to an Indian multilingual-multicultural domain. s}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Data Scientist} \hfill \textbf{Razorpay}} {Apr 2025 -- Aug 2025}
+  \resumeItemListStart
+    \resumeItem{\small{Converted the existing payment routing system (\textbf{Doppler}) from classical ML to a real-time \textbf{multi-armed bandit reinforcement learning} framework to optimize transaction success rates.}}
+    \resumeItem{\small{Designed and deployed \textbf{Airflow DAGs} for automated data retrieval and performance evaluation of routing systems.}}
+    \resumeItem{\small{Conducted extensive \textbf{EDA} and rebuilt feature engineering pipelines to retrain classical models, improving daily payment success rate by \textbf{2\%}.}}
+  \resumeItemListEnd
+
+
+\resumeProjectHeading
+  {\textbf{Associate ML Scientist-1} \hfill \textbf{Wadhwani AI}} {August 2024 -- March 2025}
+  \resumeItemListStart
+  \resumeItem{Developed a domain-specific language model for agriculture, utilizing fine-tuning techniques and synthetic data pipelines to improve performance, achieving a \textbf{1-5\% improvement over GPT-4o-mini} on key internal benchmarks.}
+
+  \resumeItem{Designed and deployed a chatbot for Kisan Call Centres (KCC), using an agentic LLM workflow to assist the advisors in quick query resolution for the farmers. The chatbot served \textbf{3,000 queries daily} during pilot runs across 11 states, with plans to scale further.}
+  \resumeItem{Worked closely with the Kisan eMitra Chatbot, streamlining insurance related grievance resolution, covering \textbf{3 government schemes and supporting over 3 million queries in 8 months}, benefiting \textbf{250,000+ farmers}.}
+  \resumeItemListEnd
+
+
+
+\resumeProjectHeading
+  {\textbf{Machine Learning Intern} \hfill \textbf{Wadhwani AI}} {January 2024 -- July 2024}
+  \resumeItemListStart
+  \resumeItem{Implemented and compared Retrieval-Augmented Generation (RAG) and fine-tuning methods on models like Mistral-7B and LLaMA-8B for domain-specific downstream tasks.}
+  \resumeItem{Designed and evaluated synthetic data pipelines for instruction tuning, enabling efficient model training.}
+  \resumeItem{Evaluated and worked on improving LLM-generated responses in RAG-based setups to ensure high-quality performance and relevance.}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Undergraduate Researcher} \hfill \textbf{APPCAIR, UNSW}} {August 2023 -- January 2024}
+  \resumeItemListStart
+  \resumeItem{Worked on building a 7 Million parameter deep learning model for detecting objects in endoscopic medical footage, deployable on edge devices.}
+  \resumeItem{Implemented MobileOne architecture as the backbone with a detector on top, achieving \textbf{91\% mAP@50} in bounding box detection on endoscopic datasets.}
+  \resumeItem{Supervised by: Prof. Tanmay Verlekar, Prof. Ashwin Srinivasan, Prof. Eric Meijering, Prof. Manik Gupta.}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Summer Research Intern} \hfill \textbf{CSIR-CSIO, Chandigarh}} {May 2022 -- July 2022}
+  \resumeItemListStart
+  \resumeItem{Collaborated with a team of scientists on a data-driven project focused on water quality monitoring.}
+  \resumeItem{Developed a dashboard to showcase contemporary research in water quality monitoring and testing.}
+  \resumeItem{Applied regression algorithms to predict future water quality levels of Sukhna Lake, leveraging historical data for forecasting.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects and initiatives}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+  {\textbf{Cross Tokenizer Distillation}} {March 2025}
+  \resumeItemListStart
+  \resumeItem{Implemented the paper on Cross Tokenizer Distillation [ULD Loss] to enhance small-scale models by leveraging larger models as supervisors. \href{https://arxiv.org/pdf/2402.12030}{\textbf{(Paper)}}}
+  \resumeItem{Trained bloomz-560m (student) using phi-3-mini-instruct (teacher) on the QED dataset, improving F1 score from \textbf{0.550 to 0.588}. \href{https://github.com/mananuppadhyay/cross-tokenizer-distillation}{\textbf{(GitHub code)}}}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{An implementation of Einops}} {April 2025}
+  \resumeItemListStart
+  \resumeItem{Implemented the einops library often used for tensor manipulations in plain numpy to supprot all rearrange and axis change operations \href{https://einops.rocks/}{\textbf{(The library)}}}
+  \resumeItem{The code and the sample test cases generated for the same could be found in the \href{https://github.com/mananuppadhyay/einops_implementation}{\textbf{(GitHub code)}}}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Object detection using Res-YoLo}} {}
+  \resumeItemListStart
+
+  \resumeItem{Applied the model architecture taken from the \href{https://www.sciencedirect.com/science/article/pii/S0031320318302000}{\underline{paper}}, onto an open source car detection Dataset.}
+
+  \resumeItem{Uses a ResNet backbone as a feature Extracter, and uses a YoLo like architecture to detect cars.}
+  \resumeItem{Fine-Tuned the architecture on a car detection dataset, by freezing the intial few ResNet layers and training the custom detector in a regression like fashion.}
+  \resumeItem{Tech stack: Pytorch, numpy, matplotlib \href{https://github.com/mananuppadhyay/ResYOLO}{\textbf{(The code)}}}
+  \resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Identifying structural changes in an image} \hfill \textbf{Course Project for Machine Learning (BITS F464)}} {}
+  \resumeItemListStart
+
+  \resumeItem{Worked with a reasoning corpus similar to the ARC challenge with images with 2 pixel values and certain logical operations being performed on them.}
+  \resumeItem{Experimented with models to classify the order of operations being performed after 8 operations at each step using Decison Trees and gradient boosting (XGBoost).}
+
+  \resumeItem{TechStack: Python, numPy, pandas, scikit-learn, skimage \href{https://github.com/mananuppadhyay/ResYOLO}{\textbf{(The code)}}}
+
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------COMMUNITY AND LEADERSHIP-----------
+\section{Community and Leadership}
+
+\resumeSubHeadingListStart
+\resumeProjectHeading
+  {\textbf{Debate Head} \hfill \textbf{The Literary and Debating Club BITS Goa}} {}
+  \resumeItemListStart
+  \resumeItem{Was responsible for leading the debating wing of the college club and training the members to participate in multiple debating competitions.}
+  \resumeItem{Participated in multiple National and international Debating competitions as a speaker and a judge}
+  \resumeItem{Some Notable Achievements: Runners up at MSRMPD, and open semifinalist at IITB,IITK,BITS Pilani debate tournaments. Judged the elimination rounds at Imperial IV and Leiden Open 2022}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+
+\begin{itemize}[label={}]
+  \small{
+    \item \textbf{Languages}{: Python, C++, Java, C} \\* % Add "*\" for spacing after Languages line
+    \item \textbf{Developer Tools}{: Git, Github, VS Code} \\*
+    \item \textbf{Frameworks}{: Pytorch, TensorFlow, HuggingFace, Langchain, Llama Index, RAGAs} \\*
+    \item \textbf{Libraries}{: numpy, pandas, scikit-learn, matplotlib, d3.js, dc.js} \\*
+    \item \textbf{Applications}{: Autocad, Excel, Anaconda} \\*
+    \item \textbf{Communication}{: English, Hindi}
+  }
+\end{itemize}
+
+
+
+%-----------RESEARCH INTERESTS-----------
+\section{Research interests}
+
+\resumeSubHeadingListStart
+\resumeItem{{\textbf{Large Language Models}{: Parameter efficient fine-tuning approaches, Evaluating LM responses and domain specific applications of LLMs, Retrieval Augmented Generation}}}
+\resumeItem{\textbf{Computer Vision}{: Diffusion models, Vision Transformers for detection and segmentation}}
+\resumeItem{\textbf{Theoretical ML}{: Stochastic modelling, Bayesian Modelling for Machine Learning}}
+\resumeSubHeadingListEnd
+
+
+
+
+
+
+%-------------------------------------------
+\end{document}

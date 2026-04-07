@@ -11,35 +11,53 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.E. Electrical and Electronics Engineering, Birla Institute of Technology and Science, Pilani, Goa (2020-2024)
+* Minor Degree in Data Science, Birla Institute of Technology and Science, Pilani, Goa (2022-2024)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* August 2025 - Present: Research Fellow
+  * Microsoft Research
+  * Worked on Updesh, a 9.5 million-sample culturally grounded synthetic instruction dataset.
+  * Working on Samiksha: A large scale multilingual evaluation suite for LLMs.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* April 2025 - August 2025: Data Scientist
+  * Razorpay
+  * Converted the existing payment routing system (Doppler) from classical ML to a real-time multi-armed bandit reinforcement learning framework.
+  * Designed and deployed Airflow DAGs for automated data retrieval and performance evaluation.
+  * Conducted extensive EDA and rebuilt feature engineering pipelines.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* August 2024 - March 2025: Associate ML Scientist-1
+  * Wadhwani AI
+  * Developed a domain-specific language model for agriculture, utilizing fine-tuning techniques and synthetic data pipelines.
+  * Designed and deployed a chatbot for Kisan Call Centres (KCC), serving 3,000 queries daily.
+  * Worked closely with the Kisan eMitra Chatbot, streamlining insurance related grievance resolution.
+
+* January 2024 - July 2024: Machine Learning Intern
+  * Wadhwani AI
+  * Implemented and compared Retrieval-Augmented Generation (RAG) and fine-tuning methods on models like Mistral-7B and LLaMA-8B.
+  * Designed and evaluated synthetic data pipelines for instruction tuning.
+
+* August 2023 - January 2024: Undergraduate Researcher
+  * APPCAIR, UNSW
+  * Worked on building a 7 Million parameter deep learning model for detecting objects in endoscopic medical footage.
+
+* May 2022 - July 2022: Summer Research Intern
+  * CSIR-CSIO, Chandigarh
+  * Developed a dashboard to showcase contemporary research in water quality monitoring.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Languages**: Python, C++, Java, C
+* **Developer Tools**: Git, Github, VS Code
+* **Frameworks**: Pytorch, TensorFlow, HuggingFace, Langchain, Llama Index, RAGAs
+* **Libraries**: numpy, pandas, scikit-learn, matplotlib, d3.js, dc.js
+
+Research Interests
+======
+* **Large Language Models**: Parameter efficient fine-tuning approaches, Evaluating LM responses and domain specific applications of LLMs, Retrieval Augmented Generation
+* **Computer Vision**: Diffusion models, Vision Transformers for detection and segmentation
+* **Theoretical ML**: Stochastic modelling, Bayesian Modelling for Machine Learning
 
 Publications
 ======
@@ -61,4 +79,6 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Debate Head - The Literary and Debating Club BITS Goa
+  * Responsible for leading the debating wing of the college club and training the members.
+  * Participated in multiple National and international Debating competitions as a speaker and a judge.
