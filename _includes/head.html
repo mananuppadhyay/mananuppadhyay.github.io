@@ -10,6 +10,9 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  // Dark mode disabled: force light theme site-wide.
+  try { localStorage.setItem('theme', 'light'); } catch (e) {}
+  document.documentElement.removeAttribute('data-theme');
 </script>
 
 <!-- For all browsers -->
