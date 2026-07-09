@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Research Fellow at **Microsoft Research India**, working with the multilingual NLP group. My research focuses on **cross-lingual parity in large language models**, i.e. understanding why model behavior differs across languages, measuring those gaps, and developing methods to close them. 
 
-I am also broadly interested in **multilingualism** from the lenses of **interpretability** and **AI safety**: in particular, what mechanistic and behavioral tools can tell us about *why* multilingual models behave unevenly, and how those findings should inform safer deployment across the world's languages.
+More broadly, I am interested in studying model behaviour, across languages and tasks, through the lenses of **interpretability**. I am especially interested in what mechanistic and behavioral tools reveal about *why* models perform unevenly, and how those insights should shape deployment of these models. I am interested in work where the aim is to translate findings from interpretability into concrete methods for closing these gaps.
 
 ## Publications
 
