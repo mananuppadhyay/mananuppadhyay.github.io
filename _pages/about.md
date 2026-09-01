@@ -11,6 +11,8 @@ I am a Research Fellow at **Microsoft Research India**, working with the multili
 
 More broadly, I am interested in studying model behaviour, across languages and tasks, through the lenses of **interpretability**. I am especially interested in what mechanistic and behavioral tools reveal about *why* models perform unevenly, and how those insights should shape deployment of these models. I am interested in work where the aim is to translate findings from interpretability into concrete methods for closing these gaps.
 
+<a href="{{ site.baseurl }}/files/cv.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae (PDF)</a>
+
 ## Publications
 
 - **DEPART: DEcomposing PARiTy across Multilingual LLMs.** *arXiv preprint, 2026.*<br>A framework for decomposing the sources of cross-lingual performance gaps in multilingual LLMs. [arXiv:2605.28163](https://arxiv.org/abs/2605.28163)
